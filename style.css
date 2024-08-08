@@ -2,10 +2,22 @@
     padding: 0px;
     margin: 0px;
 }
-
+.main{
+    background-color: #fef9e7;
+}
 .bg-first{
     background-color: #CC3333;
 }
 .nav-bar{
     background-color: #fef9e7 ;
+}
+.text-col{
+    color: #CC3333;
+}
+.nav-main{
+    margin-left: 17rem;
+    margin-right: 17rem;
+}
+.span{
+    margin-left: 32rem;
 }

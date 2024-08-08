@@ -7,8 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <title>Ngass'Restaurante</title>
 </head>
-<body>
-    <header>
+<body class="">
+    <header class=" nav-bar border-b-3 shadow-lg">
         <div class=" bg-first  flex lg:flex-row flex-col border-b border-gray">
             <div class="lg:w-7/12 w-full flex ">
                 <div class="flex justify-center item-center">
@@ -60,7 +60,7 @@
                         <p>Delivery Order</p>
                         <p>00000000000</p>
                     </div>
-                   <img class="py-5" src="./food 1.png" alt="">
+                   <img class="py-5" src="./images/food 1.png" alt="">
             </div>
             <div class=" lg:w-2/12 w-full py-8 flex justify-center">
                 <a href="">
@@ -69,5 +69,66 @@
             </div>
         </div>
     </header>
+
+    <main class="flex justify-center">
+        <div class="main-contente flex flex-col ">
+            <p class="text-col">best in twon</p>
+            <span class="text-3xl font-serif mt-4 mb-10">ENJOY OUR CHICKEN <br>
+                BURGER FAST FOOD</span>
+                <a class="flex justify-center" href="#">
+                    <button class="border-red-600 bg-red-600 py-1 rounded-lg text-white px-2 font-bold text-lg ">Order now</button>
+                </a>
+        </div>
+        <div class="main-pic">
+            <img src="./images/image1.png" alt="">
+        </div>
+    </main>
+    <div class="nav-main main flex ">
+        <div class="pt-3 flex justify-center item-center gap-3">
+              <div class="icon">
+                <a href="">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+              <div class="icon">
+                <a class="" href="">
+                    <i class="fa-brands fa-x-twitter "></i>
+                </a>
+              </div>
+              <div class="icon">
+                <a href="">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+              </div>
+              <div class="icon">
+                <a href="">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+        </div>
+        <div class="p-2 flex justify-center item-center gap-2">
+            <div class="span">
+                <span class="border-2 border-red-600 rounded-lg px-1">1</span>
+                <span class="border-2 border-red-600 rounded-lg px-1">2</span>
+                <span class="border-2 border-red-600 rounded-lg px-1">3</span>
+                <span class="border-2 border-red-600 rounded-lg px-1">4</span>
+            </div>
+        </div>
+    </div>
+    <div class="others flex flex-col my-10 justify-center">
+        <div class="first-div">
+            <div class=" flex-col">
+                <p class="flex justify-center">Food Menu</p>
+                <h1 class="text-2xl text-col font-bold flex justify-center">Popular Dishes</h1>
+            </div>
+            <div class="flex justify-center gap-2 mt-5">
+               <img src="./images/image_Dishes_1.png" alt="">
+               <img src="./images/image_Dishes_2.png" alt="">
+               <img src="./images/image_Dishes_3.png" alt="">
+               <img src="./images/image_Dishes_4.png" alt="">
+               <img src="./images/image_Dishes_5.png" alt="">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
