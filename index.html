@@ -5,12 +5,13 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./mobile.css">
     <title>Ngass'Restaurante</title>
 </head>
 <body class="">
-    <header class=" nav-bar border-b-3 shadow-lg">
-        <div class=" bg-first  flex lg:flex-row flex-col border-b border-gray">
-            <div class="lg:w-7/12 w-full flex ">
+    <header class=" nav-bar shadow-lg">
+        <div class=" bg-first  flex lg:flex-row flex-col border-b border-gray text-white ">
+            <div class=" nav-intro lg:w-11/12 lg:flex ">
                 <div class="flex justify-center item-center">
                     <i class="fa-solid fa-clock pl-4 py-1.5 pr-1"></i>
                     <p>12am to 11pm</p>
@@ -20,9 +21,9 @@
                     <p>00000000000</p>
                 </div>
             </div>
-            <div class="lg:w-5/12 w-full flex justify-center">
+            <div class="lg:w-1/12 w-full flex justify-center">
                 <a href="">
-                    <p class="lg:flex justify-start py-1">REGISTER</p>
+                    <p class="lg:flex items-end py-1">REGISTER</p>
                 </a>
             </div>
         </div>
@@ -30,7 +31,7 @@
         <div class="nav-bar flex lg:flex-row flex-col bg-nav">
             <div class="lg:w-3/12 w-full py-2">
                 <div class="flex justify-center item-center ">
-                    <svg width="112" height="75" viewBox="0 0 112 75" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg  class="px-1"width="112" height="75" viewBox="0 0 112 75" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="112" height="75" fill="url(#pattern0_92_272)"/>
                         <defs>
                         <pattern id="pattern0_92_272" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -45,26 +46,26 @@
                 <ul class="flex justify-center py-5 gap-4 font-thin-2">
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
-                    <li><a href="">ITEMS</a></li>
+                    <li><a href="">MENU</a></li>
                     <li><a href="">PAGES</a></li>
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
             <div class=" lg:w-2/12 w-full py-2 flex justify-center">
-                <svg class="py-1" width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="py-1" class="px-1" width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="30" cy="31" r="30" fill="#2A435D"/>
                     <path d="M34.752 15.627V18H24.9277V15.9883L29.5176 11.125C29.9473 10.6302 30.2891 10.194 30.543 9.81641C30.8034 9.4388 30.9922 9.09701 31.1094 8.79102C31.2266 8.47852 31.2852 8.19206 31.2852 7.93164C31.2852 7.50846 31.2168 7.15039 31.0801 6.85742C30.9499 6.56445 30.7578 6.33984 30.5039 6.18359C30.25 6.02734 29.9408 5.94922 29.5762 5.94922C29.1855 5.94922 28.8503 6.05013 28.5703 6.25195C28.2904 6.45378 28.0755 6.73372 27.9258 7.0918C27.776 7.44336 27.7012 7.84375 27.7012 8.29297H24.6348C24.6348 7.42708 24.8431 6.63932 25.2598 5.92969C25.6764 5.21354 26.2591 4.64388 27.0078 4.2207C27.7565 3.79102 28.6322 3.57617 29.6348 3.57617C30.6634 3.57617 31.526 3.73893 32.2227 4.06445C32.9193 4.38997 33.4466 4.85547 33.8047 5.46094C34.1628 6.06641 34.3418 6.79557 34.3418 7.64844C34.3418 8.13021 34.2637 8.5957 34.1074 9.04492C33.9577 9.49414 33.7396 9.9401 33.4531 10.3828C33.1667 10.8255 32.8216 11.278 32.418 11.7402C32.0143 12.196 31.5586 12.6777 31.0508 13.1855L28.9023 15.627H34.752Z" fill="#FFF8EE"/>
                     <path d="M22.5 46C20.575 46 19.0175 47.575 19.0175 49.5C19.0175 51.425 20.575 53 22.5 53C24.425 53 26 51.425 26 49.5C26 47.575 24.425 46 22.5 46ZM12 18V21.5H15.5L21.8 34.7825L19.4375 39.07C19.1575 39.56 19 40.1375 19 40.75C19 42.675 20.575 44.25 22.5 44.25H43.5V40.75H23.235C22.99 40.75 22.7975 40.5575 22.7975 40.3125L22.85 40.1025L24.425 37.25H37.4625C38.775 37.25 39.93 36.5325 40.525 35.4475L46.79 24.09C46.93 23.845 47 23.5475 47 23.25C47 22.2875 46.2125 21.5 45.25 21.5H19.3675L17.7225 18H12ZM40 46C38.075 46 36.5175 47.575 36.5175 49.5C36.5175 51.425 38.075 53 40 53C41.925 53 43.5 51.425 43.5 49.5C43.5 47.575 41.925 46 40 46Z" fill="#FFF8EE"/>
                     </svg>
                     <div class="py-2 px-2">
-                        <p>Delivery Order</p>
+                        <p class="text-sm">Delivery Order</p>
                         <p>00000000000</p>
                     </div>
                    <img class="py-5" src="./images/food 1.png" alt="">
             </div>
             <div class=" lg:w-2/12 w-full py-8 flex justify-center">
                 <a href="">
-                     <button class="bg-red-600 px-3 rounded-lg text-white font-thin-30">Log in</button>
+                     <button class="bg-red-600 px-3 py-1 rounded-lg text-white font-thin-30">Log in</button>
                 </a>
             </div>
         </div>
@@ -83,8 +84,9 @@
             <img src="./images/image1.png" alt="">
         </div>
     </main>
+
     <div class="nav-main main flex ">
-        <div class="pt-3 flex justify-center item-center gap-3">
+        <div class="py-2 px-3 pt-3 flex justify-center item-center gap-3">
               <div class="icon">
                 <a href="">
                   <i class="fa-brands fa-instagram"></i>
@@ -115,7 +117,8 @@
             </div>
         </div>
     </div>
-    <div class="others flex flex-col my-10 justify-center">
+
+    <div class="others flex flex-col my-10 pb-3 justify-center">
         <div class="first-div">
             <div class=" flex-col">
                 <p class="flex justify-center">Food Menu</p>
@@ -127,6 +130,52 @@
                <img src="./images/image_Dishes_3.png" alt="">
                <img src="./images/image_Dishes_4.png" alt="">
                <img src="./images/image_Dishes_5.png" alt="">
+            </div>
+        </div>
+
+        <div class="infos-container mt-9 flex flex-col justify-center main info-p pt-10">
+            <div class="flex justify-center p-5">
+                <p class="font-semibold">RICH & HEALTHY</p>
+            </div>
+            <div class="flex">
+                <div class="img w-4/12 flex justify-center">
+                    <img class="h-96 pb-3" src="./images/image_richHealthy_1.png" alt="">
+                </div>
+                <div class="flex w-8/12">
+                <div class="">
+                    <p class="text-col text-3xl font-bold pb-3">Highest quality artisangrains,<br>
+                        proteins & seasonal ingredients</p>
+                    <p class="font-thin">Righteous indignation and dislike men who are so beguiled and  
+                        demoralized by the <br> charms of pleasure of the moment, so blinded by desires, that they cannot foresee.</p>
+                    <div class="flex ">
+                        <div class="text-contente-3 text45">
+                            <p class="flex pb-3">
+                                <svg class="px-1" width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0L12.6033 4.59419L17.8183 3.7651L15.8496 8.66487L19.7493 12.2252L14.691 13.7409L14.3388 19.0097L10 16L5.66116 19.0097L5.30901 13.7409L0.250721 12.2252L4.15043 8.66487L2.18168 3.7651L7.3967 4.59419L10 0Z" fill="#CC3333"/>
+                                </svg>Simple and easy to distinguish
+                            </p>
+                            <p class="flex pb-3">
+                                <svg class="px-1" width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0L12.6033 4.59419L17.8183 3.7651L15.8496 8.66487L19.7493 12.2252L14.691 13.7409L14.3388 19.0097L10 16L5.66116 19.0097L5.30901 13.7409L0.250721 12.2252L4.15043 8.66487L2.18168 3.7651L7.3967 4.59419L10 0Z" fill="#CC3333"/>
+                                </svg>Simple and easy to distinguish
+                            </p>
+                            <p class="flex pb-3">
+                                <svg class="px-1" width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0L12.6033 4.59419L17.8183 3.7651L15.8496 8.66487L19.7493 12.2252L14.691 13.7409L14.3388 19.0097L10 16L5.66116 19.0097L5.30901 13.7409L0.250721 12.2252L4.15043 8.66487L2.18168 3.7651L7.3967 4.59419L10 0Z" fill="#CC3333"/>
+                                </svg>Simple and easy to distinguish
+                            </p>
+
+                            <a class="flex justify-center pt-10" href="#">
+                                <button class="border-red-600 bg-red-600 py-1 rounded-lg text-white px-2 font-bold text-lg ">Reade More</button>
+                            </a>
+                        </div>
+                        <div class="icon-45">
+                            <img class="h-60 pt-5" src="./images/image_richHealthy_2.png" alt="" width="300px">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
             </div>
         </div>
     </div>
